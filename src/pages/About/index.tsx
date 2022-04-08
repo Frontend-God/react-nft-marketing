@@ -149,11 +149,11 @@ const AboutUs = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                Our vision is to lay down the groundwork to create the framework
-                for creators, artists, visionaries and etc. to safely promote
-                their brands, products, and collections. With this vision, we
-                have started the work to build a trustworthy marketing agency
-                and grew up to be one in 10 years of hard work.
+                Our mission is to lay down the groundwork to create the
+                framework for creators, artists, visionaries and etc. to safely
+                promote their brands, products, and collections. With this
+                mission, we have started the work to build a trustworthy
+                marketing agency and grew up to be one in 10 years of hard work.
                 <br />
                 <br />
                 Specifically vetted team experts, growth analysts, and targeted

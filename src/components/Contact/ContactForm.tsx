@@ -175,21 +175,23 @@ const ContactForm = () => {
           <Box cssClasses={["contact-bg1-overlay"]} />
           <Image src={ContactBg1} width="100%" />
         </Box>
-        <Box cssClasses={["email-section", "col-md-8", "m-auto"]}>
-          <p className="section-title2 text-center">Get growth hacking tips!</p>
+        <Box cssClasses={["email-section", "col-md-10", "m-auto"]}>
+          <p className="section-title2 text-center">
+            Get routine tips about growth and marketing!
+          </p>
           <p
-            className="font-size-md-3 text-center mt-4 pb-2"
+            className="font-size-md-3 text-center mt-xxl-4 mt-3 pb-2 opacity-color"
             data-aos-delay="100"
           >
-            If you are going to use a passage of Lorem Ipsum, you need to be
-            sure there isn't anything embarrassing hidden in the middle of text.
-            All the Lorem Ipsum generators.
+            Subscribe to our newsletter to get emails whenever we publish a new
+            article, news post, or service!
           </p>
           <div>
             <Flex
               cssClasses={[
-                "col-md-6",
-                "mt-4",
+                "col-md-5",
+                "mt-xxl-4",
+                "mt-3",
                 "m-auto",
                 "border-r-10",
                 "email-form",

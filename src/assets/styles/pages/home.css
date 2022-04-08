@@ -35,14 +35,20 @@
 }
 
 .service {
-  padding: 35px 15px 0;
+  padding: 35px 15px 60px;
   cursor: pointer;
 }
 
 .service-icon {
-  border: 1px solid #ffffff24;
-  width: 80px;
-  padding: 10px 15px !important;
+  width: 70px;
+}
+
+.service-learnmore-container {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 100%;
 }
 
 .service-learnmore {
@@ -374,12 +380,11 @@
   }
 
   .service {
-    padding: 55px 30px 0;
+    padding: 55px 30px 80px;
   }
 
   .service-icon {
-    width: 120px;
-    padding: 15px 20px !important;
+    width: 100px;
   }
 
   .service-learnmore {

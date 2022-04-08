@@ -8,6 +8,11 @@ import TeamIcon from "./assets/images/icons/people.png";
 import CustomerIcon from "./assets/images/icons/customer.png";
 import StrategeIcon from "./assets/images/icons/stratege.png";
 
+import ServiceIcon1 from "./assets/images/icons/service-1.png";
+import ServiceIcon2 from "./assets/images/icons/service-2.png";
+import ServiceIcon3 from "./assets/images/icons/service-3.png";
+import ServiceIcon4 from "./assets/images/icons/service-4.png";
+
 export interface IBlog {
   image: any;
   title: string;
@@ -33,7 +38,7 @@ export const ABOUT = [
   { icon: TeamIcon, num: "15+", desc: "Team Experts", col: 4, color: "pink" },
   {
     icon: CustomerIcon,
-    num: "7/24",
+    num: "24/7",
     desc: "Post Purchase Customer Service and Consultancy",
     col: 6,
     color: "yellow",
@@ -47,11 +52,34 @@ export const ABOUT = [
   },
 ];
 
+export const SELLERS = [
+  {
+    icon: ServiceIcon1,
+    title: "Mega Influencers",
+    desc: "If you are aiming for the best return on investment in order to sell out your collection, look no further! With our Mega influencers from various social media platforms, you are able to reach out to more than 5 million audiences in weeks.",
+  },
+  {
+    icon: ServiceIcon2,
+    title: "Instagram Celebrities",
+    desc: "Get the most appropriate return with the most suitable planning for your budget with the Instagram celebrities that carefully selected by giving priority to their high engagement rates.",
+  },
+  {
+    icon: ServiceIcon3,
+    title: "YouTubers",
+    desc: "The most convenient way to convey the vision of your project to the audience is with longer marketing videos by YouTubers, according to the statistics.",
+  },
+  {
+    icon: ServiceIcon4,
+    title: "Twitter ",
+    desc: "Get on the radar of big collectors and investors with our best strategies run by Twitter Influencers.",
+  },
+];
+
 export const SERVICES = [
-  { label: "Tiktok", value: "tiktok" },
   { label: "Instagram", value: "instagram" },
-  { label: "YouTube", value: "youtube" },
   { label: "Twitter", value: "twitter" },
+  { label: "YouTube", value: "youtube" },
+  { label: "Tiktok", value: "tiktok" },
 ];
 
 export const HEADER_MENUS = [
